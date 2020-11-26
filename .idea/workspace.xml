@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="56fd9fcd-ef4b-478d-ade5-007869cc27da" name="Default Changelist" comment="" />
+    <list default="true" id="56fd9fcd-ef4b-478d-ade5-007869cc27da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network/tcp-client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network/tcp-server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,9 +52,104 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/linux_project" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/openCV" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.1">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linux_project/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tcp_camera_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linux_project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linux_project/Tcp_camera_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tcp_camera_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/openCV" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linux_project/Tcp_camera_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -45,6 +172,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.1" />
+        <item itemvalue="Python.Tcp_camera_client" />
+        <item itemvalue="Python.Tcp_camera_server" />
+        <item itemvalue="Python.12" />
+        <item itemvalue="Python.test (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,11 +213,30 @@
       <option name="presentableId" value="Default" />
       <updated>1605335413132</updated>
       <workItem from="1605335415659" duration="1046000" />
+      <workItem from="1605726784330" duration="5232000" />
+      <workItem from="1605734753812" duration="8242000" />
+      <workItem from="1605847913667" duration="102000" />
+      <workItem from="1605940179141" duration="2942000" />
+      <workItem from="1605951829837" duration="965000" />
+      <workItem from="1606105685703" duration="3134000" />
+      <workItem from="1606357188149" duration="5578000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="969" y="574" key="#Notifications" timestamp="1605335880422">
@@ -70,40 +247,75 @@
       <screen x="58" y="25" width="2502" height="1415" />
     </state>
     <state x="718" y="405" key="#com.intellij.execution.impl.EditConfigurationsDialog/58.25.2502.1415@58.25.2502.1415" timestamp="1605335544282" />
-    <state width="1358" height="269" key="GridCell.Tab.0.bottom" timestamp="1605347053428">
-      <screen x="56" y="25" width="2504" height="1415" />
+    <state x="777" y="481" key="#com.intellij.ide.util.MemberChooser" timestamp="1606360533808">
+      <screen x="50" y="25" width="2510" height="1415" />
     </state>
+    <state x="777" y="481" key="#com.intellij.ide.util.MemberChooser/50.25.2510.1415@50.25.2510.1415" timestamp="1606360533808" />
+    <state x="1041" y="505" key="FileChooserDialogImpl" timestamp="1605727017742">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="1041" y="505" key="FileChooserDialogImpl/0.25.2560.1330@0.25.2560.1330" timestamp="1605727017742" />
+    <state width="1817" height="269" key="GridCell.Tab.0.bottom" timestamp="1606364852893">
+      <screen x="50" y="25" width="2510" height="1415" />
+    </state>
+    <state width="1376" height="269" key="GridCell.Tab.0.bottom/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1605944802560" />
+    <state width="1817" height="269" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1606017628983" />
+    <state width="1358" height="269" key="GridCell.Tab.0.bottom/0.25.2560.1331/-1792.25.1792.1095@0.25.2560.1331" timestamp="1605731979712" />
+    <state width="1358" height="269" key="GridCell.Tab.0.bottom/44.25.1748.1095@44.25.1748.1095" timestamp="1605773709677" />
+    <state width="1358" height="269" key="GridCell.Tab.0.bottom/45.25.1747.1095@45.25.1747.1095" timestamp="1605778230229" />
+    <state width="1817" height="269" key="GridCell.Tab.0.bottom/50.25.2510.1415@50.25.2510.1415" timestamp="1606364852893" />
+    <state width="1358" height="269" key="GridCell.Tab.0.bottom/52.25.2508.1415@52.25.2508.1415" timestamp="1605731696828" />
     <state width="1358" height="269" key="GridCell.Tab.0.bottom/56.25.2504.1415@56.25.2504.1415" timestamp="1605347053428" />
-    <state width="1358" height="269" key="GridCell.Tab.0.center" timestamp="1605347053427">
-      <screen x="56" y="25" width="2504" height="1415" />
+    <state width="1817" height="269" key="GridCell.Tab.0.center" timestamp="1606364852892">
+      <screen x="50" y="25" width="2510" height="1415" />
     </state>
+    <state width="1376" height="269" key="GridCell.Tab.0.center/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1605944802559" />
+    <state width="1817" height="269" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1606017628983" />
+    <state width="1358" height="269" key="GridCell.Tab.0.center/0.25.2560.1331/-1792.25.1792.1095@0.25.2560.1331" timestamp="1605731979712" />
+    <state width="1358" height="269" key="GridCell.Tab.0.center/44.25.1748.1095@44.25.1748.1095" timestamp="1605773709676" />
+    <state width="1358" height="269" key="GridCell.Tab.0.center/45.25.1747.1095@45.25.1747.1095" timestamp="1605778230228" />
+    <state width="1817" height="269" key="GridCell.Tab.0.center/50.25.2510.1415@50.25.2510.1415" timestamp="1606364852892" />
+    <state width="1358" height="269" key="GridCell.Tab.0.center/52.25.2508.1415@52.25.2508.1415" timestamp="1605731696827" />
     <state width="1358" height="269" key="GridCell.Tab.0.center/56.25.2504.1415@56.25.2504.1415" timestamp="1605347053427" />
-    <state width="1358" height="269" key="GridCell.Tab.0.left" timestamp="1605347053427">
-      <screen x="56" y="25" width="2504" height="1415" />
+    <state width="1817" height="269" key="GridCell.Tab.0.left" timestamp="1606364852891">
+      <screen x="50" y="25" width="2510" height="1415" />
     </state>
+    <state width="1376" height="269" key="GridCell.Tab.0.left/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1605944802558" />
+    <state width="1817" height="269" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1606017628982" />
+    <state width="1358" height="269" key="GridCell.Tab.0.left/0.25.2560.1331/-1792.25.1792.1095@0.25.2560.1331" timestamp="1605731979711" />
+    <state width="1358" height="269" key="GridCell.Tab.0.left/44.25.1748.1095@44.25.1748.1095" timestamp="1605773709675" />
+    <state width="1358" height="269" key="GridCell.Tab.0.left/45.25.1747.1095@45.25.1747.1095" timestamp="1605778230228" />
+    <state width="1817" height="269" key="GridCell.Tab.0.left/50.25.2510.1415@50.25.2510.1415" timestamp="1606364852891" />
+    <state width="1358" height="269" key="GridCell.Tab.0.left/52.25.2508.1415@52.25.2508.1415" timestamp="1605731696827" />
     <state width="1358" height="269" key="GridCell.Tab.0.left/56.25.2504.1415@56.25.2504.1415" timestamp="1605347053427" />
-    <state width="1358" height="269" key="GridCell.Tab.0.right" timestamp="1605347053428">
-      <screen x="56" y="25" width="2504" height="1415" />
+    <state width="1817" height="269" key="GridCell.Tab.0.right" timestamp="1606364852892">
+      <screen x="50" y="25" width="2510" height="1415" />
     </state>
+    <state width="1376" height="269" key="GridCell.Tab.0.right/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1605944802559" />
+    <state width="1817" height="269" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1606017628983" />
+    <state width="1358" height="269" key="GridCell.Tab.0.right/0.25.2560.1331/-1792.25.1792.1095@0.25.2560.1331" timestamp="1605731979712" />
+    <state width="1358" height="269" key="GridCell.Tab.0.right/44.25.1748.1095@44.25.1748.1095" timestamp="1605773709676" />
+    <state width="1358" height="269" key="GridCell.Tab.0.right/45.25.1747.1095@45.25.1747.1095" timestamp="1605778230229" />
+    <state width="1817" height="269" key="GridCell.Tab.0.right/50.25.2510.1415@50.25.2510.1415" timestamp="1606364852892" />
+    <state width="1358" height="269" key="GridCell.Tab.0.right/52.25.2508.1415@52.25.2508.1415" timestamp="1605731696828" />
     <state width="1358" height="269" key="GridCell.Tab.0.right/56.25.2504.1415@56.25.2504.1415" timestamp="1605347053428" />
-    <state x="764" y="382" key="SettingsEditor" timestamp="1605335907872">
-      <screen x="59" y="25" width="2501" height="1415" />
+    <state x="722" y="361" key="SettingsEditor" timestamp="1605951876316">
+      <screen x="0" y="25" width="2560" height="1330" />
     </state>
+    <state x="722" y="361" key="SettingsEditor/0.25.2560.1330@0.25.2560.1330" timestamp="1605951876316" />
     <state x="763" y="382" key="SettingsEditor/58.25.2502.1415@58.25.2502.1415" timestamp="1605335578167" />
     <state x="764" y="382" key="SettingsEditor/59.25.2501.1415@59.25.2501.1415" timestamp="1605335907872" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_learn$Tcp_camera_client.coverage" NAME="Tcp_camera_client Coverage Results" MODIFIED="1606363869874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linux_project" />
+    <SUITE FILE_PATH="coverage/Python_learn$test.coverage" NAME="test Coverage Results" MODIFIED="1605731979702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Network" />
+    <SUITE FILE_PATH="coverage/Python_learn$1.coverage" NAME="1 Coverage Results" MODIFIED="1606364852885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_learn$12.coverage" NAME="12 Coverage Results" MODIFIED="1605948931647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_learn$tcp_client.coverage" NAME="tcp-client Coverage Results" MODIFIED="1605731231658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Network" />
     <SUITE FILE_PATH="coverage/Python_learn$main.coverage" NAME="main Coverage Results" MODIFIED="1605335919411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_learn$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1605734762541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_learn$Tcp_camera_server.coverage" NAME="Tcp_camera_server Coverage Results" MODIFIED="1606361280157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/openCV" />
+    <SUITE FILE_PATH="coverage/Python_learn$2.coverage" NAME="2 Coverage Results" MODIFIED="1605952494964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/openCV" />
+    <SUITE FILE_PATH="coverage/Python_learn$tcp_server.coverage" NAME="tcp-server Coverage Results" MODIFIED="1605731696818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Network" />
   </component>
 </project>
