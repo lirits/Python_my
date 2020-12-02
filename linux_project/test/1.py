@@ -7,15 +7,15 @@ fourcc = cv2.VideoWriter_fourcc(*'XVID')
 out = cv2.VideoWriter('/home/pi/Desktop/output.avi', fourcc, 30, (640, 480))
 def Tcp_connect( host_ip, port):
     socket_address = (host_ip, port)
+    global server_socket
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, True)
     server_socket.bind(socket_address)
     server_socket.listen(5)
 
-def Main(self):
+def Main():
     while True:
-
-        client_socket, addr = self.server_socket.accept()
+        client_socket, addr = server_socket.accept()
         print('GOT CONNECTION FROM:', addr)
         if client_socket:
             vid = cv2.VideoCapture(0)
@@ -41,7 +41,7 @@ def Main(self):
                     client_socket.close()
 if __name__ == '__main__':
     try:
-        Tcp_connect('192.168.68.101', 9999)
+        Tcp_connect('', 9999)
         Main()
     except ConnectionResetError:
         print('连接中断')
