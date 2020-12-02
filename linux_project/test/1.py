@@ -17,9 +17,12 @@ def Main():
             if client_socket:
                 message = struct.pack("Q", len(a)) + a
                 client_socket.sendall(message)
+            else:
+                continue
                 # key = cv2.waitKey(1) & 0xFF
                 # if key == ord('q'):
                 #     client_socket.close()
+    server_socket.close()
 if __name__ == '__main__':
     try:
         server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
