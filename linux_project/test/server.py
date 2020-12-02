@@ -3,18 +3,19 @@ import cv2
 import pickle
 import struct
 
-server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 out = cv2.VideoWriter('/home/pi/Desktop/output.avi', fourcc, 30, (640, 480))
 class server():
     def __init__(self, host_ip, port):
         socket_address = (host_ip, port)
-        server_socket.bind(socket_address)
-        server_socket.listen(5)
+        self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, True)
+        self.server_socket.bind(socket_address)
+        self.server_socket.listen(5)
 
     def Main(self):
         while True:
-            client_socket, addr = server_socket.accept()
+            client_socket, addr = self.server_socket.accept()
             print('GOT CONNECTION FROM:', addr)
             if client_socket:
                 vid = cv2.VideoCapture(0)
