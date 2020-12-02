@@ -30,7 +30,8 @@ if __name__ == '__main__':
             client_socket, addr = server_socket.accept()
             print('GOT CONNECTION FROM:', addr)
             test = threading.Thread(target=Main())
-        test.start()
+            test.setDaemon(True)
+            test.start()
     except ConnectionResetError:
         print('连接中断')
 
