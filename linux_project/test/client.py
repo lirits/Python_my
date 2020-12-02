@@ -66,7 +66,8 @@ class Main():
             cv2.imshow('test', frame)
             c = cv2.waitKey(10)
             if c & 0xFF == ord('q'):
-                break
+                #break
+                client_socket.close()
 
 if __name__ == '__main__':
     work = Main('192.168.68.101',9999)

@@ -8,17 +8,18 @@ fourcc = cv2.VideoWriter_fourcc(*'XVID')
 out = cv2.VideoWriter('/home/pi/Desktop/output.avi', fourcc, 30, (640, 480))
 def Main():
     while True:
-        if client_socket:
-            vid = cv2.VideoCapture(0)
-            while (vid.isOpened()):
-                img, frame = vid.read()
-                a = pickle.dumps(frame)
-                out.write(frame)
+        #if client_socket:
+        vid = cv2.VideoCapture(0)
+        while (vid.isOpened()):
+            img, frame = vid.read()
+            a = pickle.dumps(frame)
+            out.write(frame)
+            if client_socket:
                 message = struct.pack("Q", len(a)) + a
                 client_socket.sendall(message)
-                key = cv2.waitKey(1) & 0xFF
-                if key == ord('q'):
-                    client_socket.close()
+                # key = cv2.waitKey(1) & 0xFF
+                # if key == ord('q'):
+                #     client_socket.close()
 if __name__ == '__main__':
     try:
         server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
